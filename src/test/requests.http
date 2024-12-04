@@ -7,5 +7,10 @@ curl -X GET http://localhost:8080/getUserById/674f9f1b921340039cce172a
 ###
 curl -X GET http://localhost:8080/getUserByEmail/Jose.teixeira@teste.com
 
+###
+curl -X PUT http://localhost:8080/updateUser/674f9f1b921340039cce172a -H "Content-Type: application/json" -d '{"name": "Mattew Philip", "age": 28}'
+
+
+
 
 
