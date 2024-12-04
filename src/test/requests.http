@@ -1,0 +1,11 @@
+###
+curl -X POST http://localhost:8080/createUser -H "Content-Type: application/json" -d '{"email": "Jose.teixeira@teste.com", "password": "123456@`", "name": "Jose Teixeira", "age": 25}'
+
+###
+curl -X GET http://localhost:8080/getUserById/674f9f1b921340039cce172a 
+
+###
+curl -X GET http://localhost:8080/getUserByEmail/Jose.teixeira@teste.com
+
+
+
